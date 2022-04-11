@@ -1,0 +1,301 @@
+/*
+
+Website:     Attractions of Oahu
+Developer:   Arabella McEntire
+Date:        3/9/22
+Purpose:     Midterm Exam
+
+Sources:
+    color palette from https://coolors.co/f08080-f4978e-f8ad9d-fbc4ab-ffdab9
+    fonts from fonts.googleapis.com
+
+*/
+
+/* body & nav */
+
+body {
+  background-color: #FFDAB9;
+}
+
+
+nav{
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  float: right;
+
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  color: #F4978E;
+  text-decoration: none;
+  display: block;
+  font-family: 'Caesar Dressing';
+  font-size: 22px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+
+nav ul li a:hover{
+  background: #de1273;
+}
+
+/*title*/
+
+.beaches h1 {
+  font-size: 35px;
+  letter-spacing: 5px;
+  font-family: 'Sonsie One';
+  color: #DF6C6C;
+  text-shadow: 0 0 3px #de1273;
+  padding: 20px;
+  background-color: #FDBA80;
+  width: 235px;
+  border-radius: 30%;
+  border: solid white;
+  margin: 10px;
+}
+
+/* beaches */
+
+.beaches img {
+  max-width: 400px;
+  max-height: 300px;
+  float: right;
+  border: dashed white;
+  border-width: 6px;
+}
+
+.beaches h2 {
+  font-family: 'Freehand';
+  letter-spacing: 4px;
+  color: #381D2A;
+  font-size: 20px;
+  float: right;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.beaches h2::before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.beaches h2::after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.beaches p {
+  color: #381D2A;
+  font-size: 20px;
+  font-family: 'Do Hyeon';
+  border: dashed white;
+  border-width: 4px;
+  letter-spacing: 3px;
+  padding: 10px;
+  background: #E78080;
+}
+
+/* land section */
+
+
+.land h1 {
+  padding-top: 30px;
+  font-size: 40px;
+  color: #587D71;
+  font-family: 'Caesar Dressing';
+  letter-spacing: 3px;
+  text-shadow: 0 0 3px #de1273;
+}
+
+.land h2 {
+  color: #510D0A;
+  font-family: 'Do Hyeon';
+}
+
+.land h2::before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.land h2::after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.land p {
+  font-family: 'Spectral';
+  color: #381D2A;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.land img {
+  max-width: 150px;
+  float: left;
+  font-family: 'Gafata';
+  padding: 40px;
+  border: dashed white;
+  border-width: 6px;
+}
+
+
+/* Water section */
+
+
+.water h1 {
+  padding-top: 30px;
+  font-size: 40px;
+  color: #587D71;
+  font-family: 'Caesar Dressing';
+  letter-spacing: 3px;
+  text-shadow: 0 0 3px #de1273;
+  text-align: right;
+}
+
+.water h2 {
+  color: #510D0A;
+  font-family: 'Do Hyeon';
+  text-align: right;
+}
+
+.water h2::before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.water h2::after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.water p {
+  font-family: 'Spectral';
+  color: #381D2A;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.water img {
+  max-width: 300px;
+  max-height: 200px;
+  float: right;
+  border: dashed white;
+  border-width: 6px;
+}
+
+
+/* Air Section */
+
+.air h1 {
+  padding-top: 30px;
+  font-size: 40px;
+  color: #587D71;
+  font-family: 'Caesar Dressing';
+  letter-spacing: 3px;
+  text-shadow: 0 0 3px #de1273;
+}
+
+.air h2 {
+  color: #510D0A;
+  font-family: 'Do Hyeon';
+}
+
+.air h2::before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.air h2::after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.air img {
+  max-width: 300px;
+  max-height: 200px;
+  float: left;
+  border: dashed white;
+  border-width: 6px;
+}
+
+.air p {
+  font-family: 'Spectral';
+  color: #381D2A;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-bottom: 50px;
+  margin: 10px;
+}
+
+/* Footer Section */
+
+footer {
+  display: inline;
+  letter-spacing: 25px;
+  font-size: 30px;
+  padding: 50px;
+  grid-row-gap: 35px;
+  float: right;
+}
+
+footer a{
+  text-decoration: none;
+  color: #cd3b7c;
+  transition: .6s;
+}
+
+footer a:hover {
+
+}
+.copy {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #E78080;
+  color: white;
+  text-shadow: 0 0 5px #ff4f69;
+  letter-spacing: 10px;
+  text-decoration: none;
+  text-alignment: center;
+  float: left;
+  height: 15px;
+  float: right;
+  padding: 50px;
+  border-style: dashed;
+  background-image: url("beach-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
